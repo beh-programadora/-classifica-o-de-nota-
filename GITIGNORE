@@ -1,0 +1,42 @@
+
+---
+
+### .gitignore
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env.bak/
+env/
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+Enunciado
+Projeto: Classificação de Notas
+
+Desenvolva um script em Python que, com base na nota fornecida, classifique o desempenho de um estudante nas categorias "Ótimo", "Bom", "Suficiente" ou "Insuficiente".
+
+Requisitos:
+
+O script deve solicitar ao usuário a nota obtida.
+O script deve classificar a nota nas seguintes categorias:
+Ótimo: nota maior ou igual a 9
+Bom: nota entre 7 e 8.9
+Suficiente: nota entre 5 e 6.9
+Insuficiente: nota menor que 5
+O resultado deve ser exibido ao usuário, informando a classificação correspondente.
+Critérios de Avaliação:
+
+Correção na classificação das notas.
+Exibição clara e precisa do resultado.
+Estrutura e clareza do código.
